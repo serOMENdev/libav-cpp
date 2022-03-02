@@ -13,7 +13,7 @@ So I hope this code will be helpful for someone and if you want to contribute yo
 The library doesn't use exceptions at all, it uses custom implementation of Expected<T> for error handling. 
 All members and functions are marked as noexcept ( tbh it uses std containers which in theory may throw std::bad_alloc or some terrible things, but have you ever met out of memory and do you really need to handle this? Especially if you run your software on servers with tons of ram and where software typically relauches automatically on fails. )
 
-No more words to say, just take a look at transocding example!
+No more words to say, just take a look at transсоding example!
 
 ```C++
 #include <iostream>
